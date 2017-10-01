@@ -12,8 +12,8 @@ schema:
     小鹤双拼音形方案·语句流录入！
     以空格分词、标点或回车上屏。
   dependencies:
-    #- luna_pinyin
-    #- double_pinyin_flypy
+    - luna_pinyin
+    - double_pinyin_flypy
 
 switches:
   - name: ascii_mode
@@ -22,10 +22,10 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
-    reset: 1
-    states: [ 漢字, 汉字 ]
+    # reset: 1
+    states: [ 汉字, 漢字 ]
   - name: ascii_punct
-    states: [ ，。, ，． ]
+    states: [ 。，, ．， ]
 
 engine:
   processors:
@@ -61,7 +61,7 @@ translator:
   enable_encoder: true
   enable_sentence: true
   encode_commit_history: true
-  enable_completion: true
+  enable_completion: false
   enable_user_dict: true
   max_phrase_length: 14
   disable_user_dict_for_patterns:

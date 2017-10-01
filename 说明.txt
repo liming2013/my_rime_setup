@@ -1,0 +1,5 @@
+这是2017年10月1日整理的，将系统自带的文件中的文字说明统一改写为简体字。
+default,
+weasel
+symbols
+stroke

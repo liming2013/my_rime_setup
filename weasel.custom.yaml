@@ -1,19 +1,14 @@
+
 customization:
   distribution_code_name: Weasel
   distribution_version: 0.9.30
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Fri Dec 02 18:56:00 2016"
+  modified_time: "Sun Sep 10 21:48:57 2017"
   rime_version: 1.1.2
 patch:
-  schema_list:
-    - {schema: terra_pinyin}
-    - {schema: wubi_pinyin}
-  "style/border_height": 5
-  "style/border_width": 5
-  "style/color_scheme": dark_temple
-  "style/corner_radius": 2
+  "style/color_scheme": lost_temple
   "style/display_tray_icon": true
-  "style/font_face": "SimSun"
-  "style/font_point": 24
+  "style/font_face": SimSun
+  "style/font_point": 30
   "style/horizontal": true
   "style/inline_preedit": true
